@@ -1,4 +1,4 @@
-// Calculate the are of a room in square feet
+// Calculate the area of a room in square feet
 #include <iostream>
 
 int main()

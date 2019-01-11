@@ -39,7 +39,7 @@ int main()
     std::cout << large_amount << " is a very big number\n";
 
     // Boolean type
-    bool game_over {false};
+    bool game_over {};
     std::cout << "The value of game_over is " << game_over << '\n';
 
     // Overflow example
