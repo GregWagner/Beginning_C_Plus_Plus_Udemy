@@ -8,3 +8,5 @@
              47/322 (19% Completed)
 01/14/2019 - Started and completed Section 7
              71/322 (23% Completed)
+01/15/2019 - Started and completed Section 8
+             89/322 (28% Completed)
