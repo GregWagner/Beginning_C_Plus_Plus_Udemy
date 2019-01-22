@@ -58,7 +58,7 @@ void printVector(const std::vector<int> &v)
     for (auto item : v) {
         std::cout << item << ' ';
     }
-    std::cout << "]\n";
+    std::cout << "]" << (v.size() ? "\n" : " - the list is empty\n");
 }
 
 int main()
