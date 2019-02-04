@@ -14,3 +14,7 @@
              115/322 (36% Completed)
 01/24/2019 - Started and completed Section 10
              127/322 (40% Completed)
+01/26/2019 - Started and completed Section 11
+             150/322 (47% Completed)
+02/04/2019 - Started and completed Section 12
+             169/322 (53% Completed)
