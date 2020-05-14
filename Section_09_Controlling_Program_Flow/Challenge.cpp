@@ -46,7 +46,7 @@ void printLargest(const std::vector<int> &v)
 void addValue(std::vector<int> &v) 
 {
     int temp {};
-    std::cout << "Enter enter to add: ";
+    std::cout << "Enter number to add: ";
     std::cin >> temp;
 
     v.push_back(temp);
@@ -99,4 +99,5 @@ int main()
                 break;
         }
     } while (std::toupper(choice) != 'Q');
+    std::cout << "Goodbye.\n";
 }

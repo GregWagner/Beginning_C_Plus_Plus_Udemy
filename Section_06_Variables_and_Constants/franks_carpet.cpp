@@ -8,28 +8,27 @@ int main()
     const int NUMBER_OF_DAYS_VALID {30};
 
     // prompt user to enter the number of rooms
-    int number_of_small_rooms {};
+    int numberOfSmallRooms {};
     std::cout << "Enter the number of small rooms to clean: ";
-    std::cin >> number_of_small_rooms;
+    std::cin >> numberOfSmallRooms;
 
-    int number_of_large_rooms {};
+    int numberOfLargeRooms {};
     std::cout << "Enter the number of large rooms to clean: ";
-    std::cin >> number_of_large_rooms;
+    std::cin >> numberOfLargeRooms;
 
-    double cost {(number_of_small_rooms * CHARGE_PER_SMALL_ROOM) +
-        (number_of_large_rooms * CHARGE_PER_LARGE_ROOM)};
+    double cost {(numberOfSmallRooms * CHARGE_PER_SMALL_ROOM) +
+        (numberOfLargeRooms * CHARGE_PER_LARGE_ROOM)};
     double tax {cost * TAX_RATE};
 
     // display estimate
     std::cout << "\n\nEstimate for carpet cleaning service:\n"
-        << "\nNumber of small rooms: " << number_of_small_rooms
-        << "\nNumber of large rooms: " << number_of_large_rooms
+        << "\nNumber of small rooms: " << numberOfSmallRooms
+        << "\nNumber of large rooms: " << numberOfLargeRooms
         << "\nPrice per small room: $" << CHARGE_PER_SMALL_ROOM
         << "\nPrice per large room: $" << CHARGE_PER_LARGE_ROOM
         << "\nCost: $" << cost
         << "\nTax: $" << tax
         << "\n==========================================="
         << "\nTotal estimate: $" << (cost + tax)
-        << "\nThis estimate is valid for " << NUMBER_OF_DAYS_VALID 
-        << " days\n";
+        << "\nThis estimate is valid for " << NUMBER_OF_DAYS_VALID << " days\n";
 }

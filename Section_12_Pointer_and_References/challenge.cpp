@@ -16,8 +16,8 @@
  * integers and its size and displays the elements in the array.
  */
 
-void print(const int *const a, int size) {
-    for (int i = 0; i < size; ++i) {
+void print(const int *const a, size_t size) {
+    for (size_t i {}; i < size; ++i) {
         std::cout << std::setw(4) << a[i];
     }
     std::cout << '\n';
@@ -26,9 +26,9 @@ void print(const int *const a, int size) {
 int *apply_all(const int *const a, size_t asize,
         const int *const b, size_t bsize) {
     int *results = new int[asize * bsize];
-    int index = 0;
-    for (int i = 0; i < asize; ++i) {
-        for (int j = 0; j < bsize; ++j) {
+    int index {};
+    for (size_t i {}; i < asize; ++i) {
+        for (size_t j {}; j < bsize; ++j) {
             results[index++] = a[i] * b[j];
         }
     }

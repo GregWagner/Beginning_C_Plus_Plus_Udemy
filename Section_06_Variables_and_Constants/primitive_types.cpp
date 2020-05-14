@@ -5,42 +5,42 @@
 int main()
 {
     // Character type
-    char middle_initial {'J'};
-    std::cout << "My middle initial is " << middle_initial << '\n';
+    char middleInitial {'M'};
+    std::cout << "My middle initial is " << middleInitial << '\n';
 
     // Integer types
-    unsigned short exam_score {55};
-    std::cout << "My exam score was " << exam_score << '\n';
+    unsigned short examScore {55};
+    std::cout << "My exam score was " << examScore << '\n';
 
-    int countries_represented {65};
-    std::cout << "There were " << countries_represented
+    int countriesRepresented {65};
+    std::cout << "There were " << countriesRepresented
         << " countries represented.\n";
 
-    long people_in_florida {20'610'000};
-    std::cout << "There are about " << people_in_florida
+    long peopleInFlorida {20'610'000};
+    std::cout << "There are about " << peopleInFlorida
         << " people in Florida\n";
 
-    long people_on_earth {7'600'000'000};
-    std::cout << "There are about " << people_on_earth
+    long peopleOnEarth {7'600'000'000};
+    std::cout << "There are about " << peopleOnEarth
         << " people on earth.\n";
 
-    long long distance_to_alpha_centauri {9'461'000'000'000};
+    long long distanceToAlphaCentauri {9'461'000'000'000};
     std::cout << "The distance to alpha centauri is " 
-        << distance_to_alpha_centauri <<'\n';
+        << distanceToAlphaCentauri <<'\n';
 
     // Floating point types
-    float car_payment {401.23};
-    std::cout << "My car payment is " << car_payment << '\n';
+    float carPayment {401.23};
+    std::cout << "My car payment is " << carPayment << '\n';
 
     double pi {3.14159};
     std::cout <<"Pi is " << pi << '\n';
 
-    long double large_amount {2.7e120};
-    std::cout << large_amount << " is a very big number\n";
+    long double largeAmount {2.7e120};
+    std::cout << largeAmount << " is a very big number\n";
 
     // Boolean type
-    bool game_over {};
-    std::cout << "The value of game_over is " << game_over << '\n';
+    bool gameOver {};
+    std::cout << "The value of gameOver is " << gameOver << '\n';
 
     // Overflow example
     short value1 {30'000};

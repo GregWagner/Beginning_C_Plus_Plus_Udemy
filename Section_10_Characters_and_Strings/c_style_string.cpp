@@ -3,17 +3,17 @@
 #include <cctype>
 
 int main() {
-    char first_name[20];
-    char last_name[20];
-    char full_name[20];
     char temp[50];
 
     // unititalized so will display garbage
+//i char first_name[20];
 //  std::cout << first_name << '\n';
 
+    char first_name[20];
     std::cout << "Please enter your first name: ";
     std::cin >> first_name;
 
+    char last_name[20];
     std::cout << "Please enter your last name: ";
     std::cin >> last_name;
 
@@ -24,6 +24,7 @@ int main() {
     std::cout << "and your last name, " << last_name << " has "
         << std::strlen(last_name) << " characters.\n";
 
+    char full_name[50];
     std::strcpy(full_name, first_name);
     std::strcat(full_name, " ");
     std::strcat(full_name, last_name);

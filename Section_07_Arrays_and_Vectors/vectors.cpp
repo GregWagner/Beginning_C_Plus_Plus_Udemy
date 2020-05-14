@@ -11,7 +11,7 @@ int main()
     std::cout << vowels[4] << '\n';
 
 //  std::vector<int> test_scores (3);       // 3 elements initialized to zero
-//  std::vector<int> test_scores (3, 100);  // 2 elements initialized to 199
+//  std::vector<int> test_scores (3, 100);  // 3 elements initialized to 100
     std::vector<int> test_scores {100, 98, 89};
     
     std::cout << "\nTest scores using array syntax:\n";
@@ -37,7 +37,7 @@ int main()
     std::cout << test_scores.at(2) << '\n';
 
     std::cout << "\nEnter a test score to add to the vector: ";
-    int score_to_add {0};
+    int score_to_add {};
     std::cin >> score_to_add;
     test_scores.push_back(score_to_add);
 
@@ -62,13 +62,13 @@ int main()
         {1, 2, 4, 4},
         {1, 3, 4, 5}};
 
-    std::cout << "\nHere are the movie raing for reviewer #1 using array syntax\n";
+    std::cout << "\nHere are the movie rating for reviewer #1: array syntax\n";
     std::cout << movie_ratings[0][0] << '\n';
     std::cout << movie_ratings[0][1] << '\n';
     std::cout << movie_ratings[0][2] << '\n';
     std::cout << movie_ratings[0][3] << '\n';
 
-    std::cout << "\nHere are the movie raing for reviewer #1 using vector syntax\n";
+    std::cout << "\nHere are the movie rating for reviewer #1: vector syntax\n";
     std::cout << movie_ratings.at(0).at(0) << '\n';
     std::cout << movie_ratings.at(0).at(1) << '\n';
     std::cout << movie_ratings.at(0).at(2) << '\n';

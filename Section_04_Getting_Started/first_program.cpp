@@ -1,10 +1,11 @@
 #include <iostream>
 
 int main() {
-    int favorite_number {};
+    int favoriteNumber {};
     std::cout << "Enter your favorite number between 1 and 100: ";
-    std::cin >> favorite_number;
+    std::cin >> favoriteNumber;
 
-    std::cout << "Amazing!! That is my favorite number too!\n"
-        << "No really!!, " << favorite_number << " is my favorite number!\n";
+    std::cout << "Amazing!! That is my favorite number too!\n";
+    std::cout << "No really!!, " << favoriteNumber 
+        << " is my favorite number!\n";
 }

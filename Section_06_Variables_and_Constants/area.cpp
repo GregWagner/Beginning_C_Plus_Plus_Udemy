@@ -3,14 +3,14 @@
 
 int main()
 {
-    int room_width {};
+    int roomWidth {};
     std::cout << "Enter the width of the room: ";
-    std::cin >> room_width;
+    std::cin >> roomWidth;
 
-    int room_length {};
+    int roomLength {};
     std::cout << "Enter the length of the room: ";
-    std::cin >> room_length;
+    std::cin >> roomLength;
 
-    std::cout << "The area of the room is " << (room_length * room_width) 
+    std::cout << "The area of the room is " << (roomLength * roomWidth) 
         << " square feet\n";
 }
